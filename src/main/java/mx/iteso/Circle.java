@@ -17,6 +17,10 @@ public class Circle extends Shape {
         this.radius = radius;
     }
 
+    public int getRadius() {
+        return this.radius;
+    }
+
     public String draw(int x, int y) {
         return "Circle: Draw() [Color : " + color + ", x : " + x + ", y :" + y + ", radius :" + radius;
     }
