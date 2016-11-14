@@ -1,4 +1,6 @@
-package mx.iteso;
+package mx.iteso.Shapes;
+
+import mx.iteso.Shape;
 
 /**
  * Created by simio on 13/11/2016.

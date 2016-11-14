@@ -3,6 +3,9 @@ package mx.iteso;
 /**
  * Created by simio on 13/11/2016.
  */
+import mx.iteso.Shapes.Circle;
+import mx.iteso.Shapes.Triangle;
+
 import java.util.HashMap;
 
 public class ShapeFactory {

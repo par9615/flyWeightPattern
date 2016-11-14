@@ -1,5 +1,7 @@
-package mx.iteso;
+package mx.iteso.Shapes;
 
+import mx.iteso.ShapeFactory;
+import mx.iteso.Shapes.Triangle;
 import org.junit.Before;
 import org.junit.Test;
 

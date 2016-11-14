@@ -1,5 +1,7 @@
-package mx.iteso;
+package mx.iteso.Shapes;
 
+import mx.iteso.ShapeFactory;
+import mx.iteso.Shapes.Circle;
 import org.junit.Before;
 import org.junit.Test;
 
