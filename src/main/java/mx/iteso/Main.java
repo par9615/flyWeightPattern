@@ -10,8 +10,5 @@ public class Main {
         Shape circle1 = shapeFactory.getCircle("Red");
         Shape circle2 = shapeFactory.getCircle("Green");
         Shape triangle1 = shapeFactory.getTriangle("Red");
-
-
-
     }
 }

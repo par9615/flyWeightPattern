@@ -11,8 +11,8 @@ public class Triangle extends Shape {
     public Triangle(String color) {
         this.color = color;
         this.side1 = 1;
-        this.side2 = 1;
-        this.side3 = 1;
+        this.side2 = 2;
+        this.side3 = 3;
     }
 
     public void setSide1(int side) {
@@ -27,6 +27,17 @@ public class Triangle extends Shape {
         this.side3 = side;
     }
 
+    public int getSide1() {
+        return side1;
+    }
+
+    public int getSide2() {
+        return side2;
+    }
+
+    public int getSide3() {
+        return side3;
+    }
 
     public String draw(int x, int y) {
         return "Triangle: Draw() [Color : " + color + ", x : " + x + ", y :" + y + ", side1 :" + side1 + ", side2 :" + side2 + ", side3 :" + side3;
