@@ -5,10 +5,6 @@ package mx.iteso;
  */
 public abstract class Shape {
     public String color;
-    public int x;
-    public int y;
-    public abstract void draw();
-    public abstract void setX(int x);
-    public abstract void setY(int y);
+    public abstract String draw(int x, int y);
 
 }

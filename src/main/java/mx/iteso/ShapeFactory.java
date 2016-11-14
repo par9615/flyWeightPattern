@@ -16,6 +16,7 @@ public class ShapeFactory {
             circleMap.put(color, circle);
             System.out.println("Creating circle of color : " + color);
         }
+
         return circle;
     }
 }
