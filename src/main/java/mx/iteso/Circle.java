@@ -3,14 +3,15 @@ package mx.iteso;
 /**
  * Created by simio on 13/11/2016.
  */
-public class Circle implements Shape {
-    private String color;
-    private int x;
-    private int y;
+public class Circle extends Shape {
+
     private int radius;
 
     public Circle(String color){
         this.color = color;
+        this.x = 0;
+        this.y = 0;
+        this.radius = 1;
     }
 
     public void setX(int x) {
